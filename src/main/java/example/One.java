@@ -6,6 +6,11 @@ public class One {
   public String foo() {
     return message;
   }
+ 
+  public String goo() {
+    return message;
+  }
+  
 
   public void uncoveredMethod() {
     System.out.println(foo());
